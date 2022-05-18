@@ -1,0 +1,28 @@
+//Html:
+
+<p> hello </p>
+<p class="second-para">world </p>
+<br>
+<span> Hello </span>
+<span> World </span>
+
+
+CSS:
+p{
+  background-color:red;
+  width:100px;
+  display:inline-block;
+}
+span{
+  display:block;
+  background-color:blue;
+  width:200px;
+
+}
+
+*** to hide visibility we use visibility: hidden;
+or we can do dispaly: none;
+
+.second-para{
+  visibility:hidden;
+}
